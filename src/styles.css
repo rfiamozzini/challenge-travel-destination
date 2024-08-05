@@ -11,8 +11,8 @@ body {
   font-family: "Abhaya Libre", serif;
 }
 
-h1 {
-  font-size: 64px;
+.hero h1 {
+  font-size: 96px;
 }
 
 h3 {
@@ -41,4 +41,23 @@ p {
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: white;
+  background-color: #5d96a5;
+  padding: 12px 14px 10px 14px;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: #5d96a5;
+  background-color: white;
+}
+
+footer p {
+  font-size: 20px;
 }
