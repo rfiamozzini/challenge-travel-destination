@@ -65,3 +65,17 @@ footer .social-links a:hover {
 footer p {
   font-size: 20px;
 }
+
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 70px;
+  }
+
+  h2 {
+    font-size: 33px;
+  }
+
+  h3 {
+    font-size: 45px;
+  }
+}
