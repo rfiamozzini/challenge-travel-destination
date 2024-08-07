@@ -47,10 +47,18 @@ p {
   padding: 15px 30px;
 }
 
+footer {
+  background-color: #5d96a5;
+}
+
+footer h4 {
+  color: white;
+}
+
 footer .social-links a {
   margin: 0 20px;
-  color: white;
-  background-color: #5d96a5;
+  color: #5d96a5;
+  background-color: white;
   padding: 12px 14px 10px 14px;
   border-radius: 50%;
   font-size: 18px;
@@ -58,12 +66,17 @@ footer .social-links a {
 }
 
 footer .social-links a:hover {
-  color: #5d96a5;
-  background-color: white;
+  color: white;
+  background-color: #5d96a5;
 }
 
 footer p {
   font-size: 20px;
+  color: white;
+}
+
+footer .github-link a:visited {
+  color: white;
 }
 
 @media (max-width: 768px) {
