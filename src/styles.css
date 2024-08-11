@@ -12,11 +12,11 @@ body {
 }
 
 .hero h1 {
-  font-size: 98px;
+  font-size: 112px;
 }
 
 h2 {
-  font-size: 48px;
+  font-size: 64px;
 }
 
 h3 {
@@ -47,6 +47,10 @@ p {
   padding: 15px 30px;
 }
 
+.eat-section {
+  margin-top: 120px;
+}
+
 footer {
   background-color: #5d96a5;
 }
@@ -59,7 +63,7 @@ footer .social-links a {
   margin: 0 20px;
   color: #5d96a5;
   background-color: white;
-  padding: 12px 14px 10px 14px;
+  padding: 12px 16px 10px 16px;
   border-radius: 50%;
   font-size: 18px;
   transition: all 100ms ease-in-out;
@@ -85,10 +89,15 @@ footer .github-link a:visited {
   }
 
   h2 {
-    font-size: 33px;
+    font-size: 48px;
   }
 
   h3 {
-    font-size: 45px;
+    font-size: 38px;
+  }
+
+  .navbar {
+    padding-left: 16px;
+    padding-right: 16px;
   }
 }
